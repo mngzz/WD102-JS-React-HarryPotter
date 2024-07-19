@@ -1,0 +1,92 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* .title {
+  position: relative;
+  bottom: 50px;
+  z-index: 100;
+}
+
+.title h1 {
+  font-family: "BerkshireSwash";
+  font-weight: bolder;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 11px 2px rgba(0, 0, 0, 0.6);
+  color: rgba(207, 207, 207, 0.868);
+
+  z-index: 100;
+} */
+
+.home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-out;
+}
+
+.trees {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tree3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cloud {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  transition: transform 0.3s ease-out;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  width: 90%;
+  transition: transform 0.3s ease-out;
+  z-index: 210;
+}
+
+@media (min-width: 400px) and (max-width: 1400px) {
+  .tree3 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cloud {
+    position: absolute;
+    width: 1000px;
+    z-index: 200;
+    transition: transform 0.3s ease-out;
+  }
+
+  .title {
+    position: absolute;
+    top: 200px;
+    width: 700px;
+    transition: transform 0.3s ease-out;
+    z-index: 210;
+  }
+}

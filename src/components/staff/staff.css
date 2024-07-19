@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "JainiPurva";
+  src: url("/fonts/JainiPurva-Regular.ttf") format("truetype");
+}
+
+.staff-section {
+  background-color: #071013;
+  height: auto;
+  overflow: hidden;
+}
+
+h2 {
+  color: rgb(204, 204, 204);
+  font-size: 50px;
+  font-family: "JainiPurva";
+  z-index: 200;
+}
+
+.card-staff-name {
+  font-family: "JainiPurva";
+  font-weight: bolder;
+}

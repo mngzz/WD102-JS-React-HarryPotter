@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Libre";
+  src: url("/fonts/mLibreBaskerville-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "JainiPurva";
+  src: url("/fonts/JainiPurva-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("/fonts/Satisfy-Regular.ttf") format("truetype");
+}
+
+.spell-section {
+  background-color: #071013;
+  height: 100vh;
+  background-image: url("/images/Spell-bg2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.spell-title {
+  position: relative;
+  top: 100px;
+}
+
+.spell-section h2 {
+  font-family: "JainiPurva";
+  color: rgb(23, 27, 28);
+  font-weight: bolder;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 2px solid rgb(23, 27, 28);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search-input::placeholder {
+  color: #313131;
+}
+
+.search-button {
+  background-color: rgb(23, 27, 28);
+  border: 2px solid rgb(23, 27, 28);
+  border-radius: 5px;
+  color: rgb(182, 182, 182);
+  font-family: "Libre";
+}
+
+.spell-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.default-msg {
+  position: relative;
+  top: 70px;
+  font-size: 50px;
+  font-family: "JainiPurva";
+}
+
+.spell-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 750px;
+  max-height: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 5px red;
+}
+
+.spell-item strong {
+  display: block;
+  font-weight: bold;
+}
+
+.name-description-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.spell-name {
+  font-family: "JainiPurva";
+  font-size: 45px;
+}
+
+.spell-description {
+  font-family: "Satisfy";
+  font-size: 25px;
+}
+
+@media (min-width: 400px) and (max-width: 1400px) {
+  .spell-title {
+    position: relative;
+    top: 120px;
+  }
+
+  .name-description-box {
+    top: 135px;
+  }
+
+  .spell-name {
+    font-size: 30px;
+  }
+
+  .spell-description {
+    font-size: 20px;
+  }
+
+  .default-msg {
+    font-size: 50px;
+    top: 80px;
+  }
+}

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Libre";
+  src: url("/fonts/mLibreBaskerville-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "JainiPurva";
+  src: url("/fonts/JainiPurva-Regular.ttf") format("truetype");
+}
+
+.about-section {
+  background-color: #071013;
+  height: auto;
+  overflow: hidden;
+}
+
+.witch-hat {
+  width: 100px;
+  cursor: pointer;
+}
+
+h2 {
+  color: rgb(204, 204, 204);
+  font-size: 50px;
+  font-family: "JainiPurva";
+  z-index: 200;
+}
+
+.card {
+  width: 230px;
+  height: 300px;
+  background-image: url("/images/card-frame.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.card-image {
+  width: 150px;
+  height: 200px;
+  filter: brightness(70%) contrast(100%);
+}
+
+.card-houses {
+  width: 200px;
+  cursor: pointer;
+}
+
+.card-student-name {
+  font-family: "JainiPurva";
+  font-weight: bolder;
+}
+
+.card-student-house {
+  font-family: "Libre";
+  font-weight: 800;
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+  .card-houses {
+    width: 100px;
+  }
+
+  .witch-hat {
+    width: 80px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}

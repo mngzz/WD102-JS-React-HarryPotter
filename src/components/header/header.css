@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Libre";
+  src: url("/fonts/LibreBaskerville-Bold.ttf") format("truetype");
+}
+
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+}
+
+.nav-link-custom:focus {
+  color: #c57302;
+}
+
+.font-fmly {
+  font-family: "Libre";
+  font-weight: bolder;
+  font-size: 17px;
+  color: #b4b2b2;
+  text-shadow: 2px 5px 4px rgba(40, 38, 32, 0.9);
+  margin: 8px 25px;
+}
+
+.font-fmly:hover {
+  color: #c57302;
+}
+
+.nav-bar {
+  background-color: transparent;
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+  .font-fmly {
+    font-size: 13px;
+    margin: 8px 10px;
+  }
+}
