@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/header/Header"; // Adjusted path to Header component
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Staff from "./components/staff/Staff";
 import Spells from "./components/spells/Spells";
 import Contacts from "./components/contacts/Contacts";
 
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="about">
+        <Staff />
       </section>
       <section id="spells">
         <Spells />
