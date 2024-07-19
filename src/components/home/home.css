@@ -7,23 +7,6 @@
   overflow: hidden;
 }
 
-/* .title {
-  position: relative;
-  bottom: 50px;
-  z-index: 100;
-}
-
-.title h1 {
-  font-family: "BerkshireSwash";
-  font-weight: bolder;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: 4px 11px 2px rgba(0, 0, 0, 0.6);
-  color: rgba(207, 207, 207, 0.868);
-
-  z-index: 100;
-} */
-
 .home-bg {
   position: absolute;
   top: 0;
