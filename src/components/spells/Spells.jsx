@@ -39,7 +39,7 @@ const Spells = () => {
     );
 
     if (filteredResults.length === 0) {
-      alert("No spells foun. Search again...");
+      alert("No spells found. Search again...");
     } else {
       setFilteredSpells(filteredResults);
     }
