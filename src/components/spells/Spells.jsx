@@ -59,7 +59,11 @@ const Spells = () => {
               onChange={(e) => setSearchQuery(e.target.value)}
               required
             />
-            <button className="search-button" type="submit">
+            <button
+              className="search-button"
+              type="submit"
+              aria-label="Search spells"
+            >
               Search
             </button>
           </form>
