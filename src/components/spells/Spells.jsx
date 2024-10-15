@@ -32,7 +32,7 @@ const Spells = () => {
       return;
     }
 
-      const filteredResults = spells.filter(
+    const filteredResults = spells.filter(
       (spell) =>
         spell.name.toLowerCase().includes(query) ||
         spell.description.toLowerCase().includes(query)
@@ -53,7 +53,7 @@ const Spells = () => {
           <form onSubmit={handleSearch} className="search-form">
             <input
               className="search-input"
-              type="text"
+              type="search"
               placeholder="Search spell..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
