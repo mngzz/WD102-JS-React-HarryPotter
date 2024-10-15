@@ -32,12 +32,7 @@ const Spells = () => {
       return;
     }
 
-    if (query === "") {
-      alert("Sorry, no spells found.");
-      return;
-    }
-
-    const filteredResults = spells.filter(
+      const filteredResults = spells.filter(
       (spell) =>
         spell.name.toLowerCase().includes(query) ||
         spell.description.toLowerCase().includes(query)
