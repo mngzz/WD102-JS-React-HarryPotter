@@ -27,6 +27,11 @@ const Spells = () => {
     e.preventDefault();
     const query = searchQuery.toLowerCase().trim();
 
+    if (query.length < 4) {
+      alert("Please enter at least 4 letters.");
+      return;
+    }
+
     if (query === "") {
       alert("Sorry, no spells found.");
       return;
