@@ -17,7 +17,7 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="about">
+      <section id="staff">
         <Staff />
       </section>
       <section id="spells">
